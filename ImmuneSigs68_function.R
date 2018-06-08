@@ -106,7 +106,7 @@ for(i in 1:length(sigs1_2_eg2)){
 }
 
 print("DONE MEAN")
-#data_otherimmune2<-data_otherimmune2[-1,]	#get rid of the first row of
+data_otherimmune2<-data_otherimmune2[-1,]	#get rid of the first row of
 
 ##2#########################################
 ####next, evaluate the signatures calculated as the median expression level of genes in the signature
