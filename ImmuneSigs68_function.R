@@ -309,7 +309,7 @@ for(i in 1:length(sigs1_2_eg2)){
 print("DONE PCA")
 #zscore and round
 
-data_otherimmune2<-round(zscore.rows2(data_otherimmune2),digits=4)
+#data_otherimmune2<-round(zscore.rows2(data_otherimmune2),digits=4)
 
 print("DONE DONE")
 
