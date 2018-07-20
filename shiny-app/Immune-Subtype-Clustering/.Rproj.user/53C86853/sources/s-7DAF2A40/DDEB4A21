@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1532108461356.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2011013098",
+    "id" : "DDEB4A21",
+    "lastKnownWriteTime" : 1532110691,
+    "last_content_update" : 1532110691249,
+    "path" : "~/Code/iAtlas/Immune-Subtype-Clustering/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "cursorPosition" : "13,0",
+        "scrollLine" : "2"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
