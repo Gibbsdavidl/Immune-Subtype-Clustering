@@ -149,14 +149,14 @@ determineK <- function(dat, init=0.25, cores=2, reps=10) {
 
 #####################################################
 
-wolf <- read.table("data/five_signature_mclust_ensemble_results.tsv", sep='\t', header=T, stringsAsFactors = F)
-dat <- wolf[,c(5:9)]
-wolfNames <- str_replace_all(wolf$AliquotBarcode, '\\.', '-')
+#wolf <- read.table("data/five_signature_mclust_ensemble_results.tsv", sep='\t', header=T, stringsAsFactors = F)
+#dat <- wolf[,c(5:9)]
+#wolfNames <- str_replace_all(wolf$AliquotBarcode, '\\.', '-')
 
-check1 <- modelEnsemble(dat, mods=256, klus=6, sampSize=0.5, cores=6)
-checkP <- consensusEnsemble(check1, dat)
-checkC <- apply(checkP$.Data, 1, function(a) which(a == max(a))[1])
+#check1 <- modelEnsemble(dat, mods=256, klus=6, sampSize=0.5, cores=6)
+#checkP <- consensusEnsemble(check1, dat)
+#checkC <- apply(checkP$.Data, 1, function(a) which(a == max(a))[1])
 
-table(checkC, wolf$ClusterModel1)
+#table(checkC, wolf$ClusterModel1)
 
 
